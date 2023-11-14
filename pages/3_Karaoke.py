@@ -9,8 +9,8 @@ from collections import OrderedDict
 st.set_page_config(layout='wide')
 
 
-#r = requests.get("https://docs.google.com/spreadsheets/d/1BsFhkBI0fAKxfo6iMegsqk3RjKWSczlWvBnfnysq0DA/export?format=xlsx&id=1BsFhkBI0fAKxfo6iMegsqk3RjKWSczlWvBnfnysq0DA")
-#open('karaoke.xlsx', 'wb').write(r.content)
+r = requests.get("https://docs.google.com/spreadsheets/d/1BsFhkBI0fAKxfo6iMegsqk3RjKWSczlWvBnfnysq0DA/export?format=xlsx&id=1BsFhkBI0fAKxfo6iMegsqk3RjKWSczlWvBnfnysq0DA")
+open('karaoke.xlsx', 'wb').write(r.content)
 
 
 
